@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.labbaikaputritiovani_1202152330_modul3.SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/headerSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="casual"
+        android:text="Air Sumber Kehidupan"
+        android:textColor="@color/colorBlack"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
+        android:id="@+id/water_b2"
+        android:layout_width="267dp"
+        android:layout_height="261dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerSplash"
+        app:srcCompat="@drawable/water_b2" />
+</android.support.constraint.ConstraintLayout>
